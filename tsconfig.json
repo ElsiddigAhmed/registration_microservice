@@ -4,18 +4,19 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
-    "target": "ESNext",
+    "target": "es2019",
     "noImplicitAny": true,
     "moduleResolution": "node",
-    "sourceMap": false,
     "outDir": "build",
     "baseUrl": ".",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "resolveJsonModule": true,
     "paths": {
       "*": ["node_modules/*", "src/types/*"]
-    }
+    },
+    "lib": ["ES5", "ES6"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "resolveJsonModule": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*.ts", "src/**/*.json", "docs/public/js"]
 }

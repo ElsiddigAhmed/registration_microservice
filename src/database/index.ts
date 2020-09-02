@@ -8,6 +8,7 @@ export let Models: Entities.DBModels;
 
 async function connect(app: any) {
   try {
+    options.entities.push(User);
     const initial = await createConnection(options);
     Models = {
       User: initial.getRepository(User),
