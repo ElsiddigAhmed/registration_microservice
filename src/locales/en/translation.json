@@ -1,0 +1,16 @@
+{
+  "invalid_email": "invalid email",
+  "required_email": "email is required",
+  "empty_email": "email shouldn't be empty",
+  "required_password": "password is required",
+  "empty_password": "password shouldn't be empty",
+  "minimum_password": "password shouldn't be less than 8 length",
+  "required_firstName": "firstName is required",
+  "empty_firstName": "firstName shouldn't be empty",
+  "required_lastName": "lastName is required",
+  "empty_lastName": "lastName shouldn't be empty",
+  "required_phone": "phone is required",
+  "empty_phone": "phone shouldn't be empty",
+  "user_already_exist": "user already exist",
+  "incorrect_user_or_pass": "incorrect email or password"
+}

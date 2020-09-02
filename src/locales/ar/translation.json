@@ -1,0 +1,16 @@
+{
+  "invalid_email": "البريد الإلكتروني غير صالح",
+  "required_email": "البريد الإلكتروني مطلوب",
+  "empty_email": "البريد الإكتروني فارغ",
+  "required_password": "كلمة السر مطلوبة",
+  "empty_password": "كلمة السر فارغة",
+  "minimum_password": "كلمة السر يجب ان تكون على الاقل 8 خانات",
+  "required_firstName": "الاسم الاول مطلوب",
+  "empty_firstName": "الاسم الاول فارغ",
+  "required_lastName": "الاسم الثاني مطلوب",
+  "empty_lastName": "الاسم الثاني فارغ",
+  "required_phone": "رقم الهاتف مطلوب",
+  "empty_phone": "رقم الهاتف فارغ",
+  "user_already_exist": "المستخدم موجود مسبقا",
+  "incorrect_user_or_pass": " هذا المستخدم غير موجود او كلمة السر غير صحيحة"
+}
